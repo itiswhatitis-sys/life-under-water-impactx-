@@ -44,7 +44,8 @@ const About = () => {
             Zentry unites every player from countless games and platforms, both
             digital and physical, into a unified Play Economy
           </p> */}
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed incidunt, numquam nam quisquam facere assumenda explicabo perspiciatis itaque hic saepe libero voluptatem sapiente id laudantium architecto placeat est, nihil ex.
+          Sharks are <b>cold-blooded</b>, have fins, live in the water, and breathe with gills. A shark's skeleton is made of cartilage.
+          A shark's fusiform (rounded and tapering at both ends) body shape reduces drag and <b>requires minimum energy to swim</b>.
         </div>
       </div>
 

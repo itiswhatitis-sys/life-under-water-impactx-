@@ -103,24 +103,23 @@ const Features = () => (
     <div className="container mx-auto px-3 md:px-10">
       <div className="px-5 py-32">
         <p className="font-circular-web text-lg text-blue-50">
-          Into the Metagame Layer
+          A short description about oceans
         </p>
         <p className="max-w-md font-circular-web text-lg text-blue-50 opacity-50">
-          Immerse yourself in a rich and ever-expanding universe where a vibrant
-          array of products converge into an interconnected overlay experience
-          on your world.
+        The ocean plays a vital role in climate and weather. The sun’s heat causes water to evaporate, adding moisture to the air. The oceans provide most of this evaporated water.
         </p>
       </div>
 
       <BentoTilt className="border-hsla relative mb-7 h-96 w-full overflow-hidden rounded-md md:h-[65vh]">
         <BentoCard
-          src="videos/feature-1.mp4"
+          src="videos/1.mp4"
           title={
             <>
-              radia<b>n</b>t
+              <b>Dolphins</b>
+              {/* radia<b>n</b>t */}
             </>
           }
-          description="A cross-platform metagame app, turning your activities across Web2 and Web3 games into a rewarding adventure."
+          description="Dolphins are highly intelligent and social marine mammals belonging to the family Delphinidae, which includes species like the bottlenose dolphin, orca, and spinner dolphin. Known for their playful behavior, dolphins live in pods where they engage in cooperative hunting, communicate through a range of vocalizations and echolocation, and form strong social bonds."
           isComingSoon
         />
       </BentoTilt>
@@ -128,7 +127,7 @@ const Features = () => (
       <div className="grid h-[135vh] w-full grid-cols-2 grid-rows-3 gap-7">
         <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2">
           <BentoCard
-            src="videos/feature-2.mp4"
+            src="videos/2.mp4"
             title={
               <>
                 zig<b>m</b>a
@@ -141,7 +140,7 @@ const Features = () => (
 
         <BentoTilt className="bento-tilt_1 row-span-1 ms-32 md:col-span-1 md:ms-0">
           <BentoCard
-            src="videos/feature-3.mp4"
+            src="videos/3.mp4"
             title={
               <>
                 n<b>e</b>xus
@@ -154,7 +153,7 @@ const Features = () => (
 
         <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
           <BentoCard
-            src="videos/feature-4.mp4"
+            src="videos/4.mp4"
             title={
               <>
                 az<b>u</b>l
@@ -175,15 +174,15 @@ const Features = () => (
           </div>
         </BentoTilt>
 
-        <BentoTilt className="bento-tilt_2">
+        {/* <BentoTilt className="bento-tilt_2">
           <video
-            src="videos/feature-5.mp4"
+            src="videos/feature-1.mp4"
             loop
             muted
             autoPlay
             className="size-full object-cover object-center"
           />
-        </BentoTilt>
+        </BentoTilt> */}
       </div>
     </div>
   </section>

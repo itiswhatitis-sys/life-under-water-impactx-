@@ -4,7 +4,7 @@ const socialLinks = [
   { href: "https://discord.com", icon: <FaDiscord /> },
   { href: "https://twitter.com", icon: <FaTwitter /> },
   { href: "https://youtube.com", icon: <FaYoutube /> },
-  { href: "https://medium.com", icon: <FaMedium /> },
+  // { href: "https://medium.com", icon: <FaMedium /> },
 ];
 
 const Footer = () => {
